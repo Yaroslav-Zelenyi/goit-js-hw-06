@@ -6,4 +6,3 @@ for (const item of categoriesElement.children) {
     `Category: ${item.firstElementChild.textContent} Elements: ${item.lastElementChild.children.length}`
   );
 }
-
